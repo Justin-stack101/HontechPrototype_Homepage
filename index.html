@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hontech Auto Center Inc. — Your Trusted Auto Center Partner</title>
+    <meta name="description"
+        content="HONTECH AUTO CENTER, INC. (HACI) is one of the newest and fastest-growing automotive companies based in Metro Manila, providing high-standard, affordable car care services.">
+    <meta property="og:title" content="Hontech Auto Center Inc. — Your Trusted Auto Center Partner">
+    <meta property="og:description"
+        content="High-quality, affordable automotive services by casa-trained experts in Metro Manila.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- ═══════════════════════════════════════
+         NAVIGATION
+         ═══════════════════════════════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <a href="#hero" class="navbar-logo">
+                <div class="navbar-logo-icon">
+                    <i data-lucide="wrench" style="width:18px;height:18px;color:white"></i>
+                </div>
+                <div class="navbar-logo-text">Hon<span>Tech</span></div>
+            </a>
+
+            <div class="navbar-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#vision-mission">Vision & Mission</a>
+                <a href="#why-hontech">Why Hontech</a>
+                <a href="#values">Values</a>
+                <a href="#milestones">Milestones</a>
+                <a href="#team">Our Team</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a href="#contact" class="navbar-cta">Get In Touch</a>
+
+            <button class="navbar-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════
+         HERO
+         ═══════════════════════════════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" data-parallax="0.3">
+            <img src="images/hero-bg.png" alt="Hontech Auto Center Workshop" loading="eager">
+        </div>
+        <div class="hero-dots"></div>
+
+        <!-- Floating Geometric Shapes -->
+        <div class="hero-floats">
+            <div class="hero-float hero-float--1"></div>
+            <div class="hero-float hero-float--2"></div>
+            <div class="hero-float hero-float--3"></div>
+            <div class="hero-float hero-float--4"></div>
+            <div class="hero-float hero-float--5"></div>
+            <div class="hero-float hero-float--6"></div>
+            <!-- Glow Rings -->
+            <div class="glow-ring glow-ring--1"></div>
+            <div class="glow-ring glow-ring--2"></div>
+            <div class="glow-ring glow-ring--3"></div>
+        </div>
+
+        <!-- Particle Canvas -->
+        <canvas class="particle-canvas" id="particleCanvas"></canvas>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Company Profile 2023
+                </div>
+
+                <h1>
+                    Your Trusted<br>
+                    <span class="highlight">Auto Center</span><br>
+                    Partner
+                </h1>
+
+                <p class="hero-description">
+                    HONTECH AUTO CENTER, INC. is one of the newest and fastest-growing automotive companies in Metro
+                    Manila — delivering high-standard quality services that are competitive yet affordable.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#services" class="btn-primary">
+                        <i data-lucide="wrench" style="width:16px;height:16px"></i>
+                        Explore Services
+                    </a>
+                    <a href="#about" class="btn-secondary">
+                        <i data-lucide="play-circle" style="width:16px;height:16px"></i>
+                        Learn More
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <div class="hero-stat-number"><span class="counter-number" data-target="5" data-suffix="+">0</span><span>+</span></div>
+                        <div class="hero-stat-label">Years of Service</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-number"><span class="counter-number" data-target="16" data-suffix="+">0</span><span>+</span></div>
+                        <div class="hero-stat-label">Expert Personnel</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-number"><span class="counter-number" data-target="1200" data-suffix="sqm">0</span><span>sqm</span></div>
+                        <div class="hero-stat-label">Service Area</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-card reveal-right">
+                <img src="images/service-image.png" alt="Professional Auto Service">
+                <div class="hero-image-overlay">
+                    <div class="hero-overlay-icon">
+                        <i data-lucide="shield-check" style="width:20px;height:20px;color:white"></i>
+                    </div>
+                    <div class="hero-overlay-text">
+                        <h4>CASA-Like Quality Standards</h4>
+                        <p>Certified experts from top Philippine car companies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Ticker Strip -->
+    <div class="marquee-strip">
+        <div class="marquee-track">
+            <span class="marquee-item"><span class="marquee-dot"></span>CASA-Like Quality</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Certified Experts</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Affordable Pricing</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Trusted Since 2020</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Metro Manila</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Quality Over Profit</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>16+ Expert Personnel</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Full PMS Packages</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="marquee-item"><span class="marquee-dot"></span>CASA-Like Quality</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Certified Experts</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Affordable Pricing</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Trusted Since 2020</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Metro Manila</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Quality Over Profit</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>16+ Expert Personnel</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Full PMS Packages</span>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════
+         ABOUT COMPANY
+         ═══════════════════════════════════════ -->
+    <section class="section section-blob" id="about">
+        <!-- Animated Gradient Blobs -->
+        <div class="blob blob--1"></div>
+        <div class="blob blob--2"></div>
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <div class="section-label">About Our Company</div>
+                    <h2 class="section-title">
+                        Redefining Automotive<br>
+                        Care in Metro Manila
+                    </h2>
+
+                    <p>
+                        Hontech was conceptualized in 2020, established and began official operations within the same
+                        year. The company is managed by former casa employees who are highly skilled and experienced
+                        personnel with diverse areas of expertise.
+                    </p>
+                    <p>
+                        HONTECH AUTO CENTER, INC. (HACI) is one of the newest and fastest-growing automotive companies
+                        based in Metro Manila. The car center is supervised by a team of certified auto professionals and
+                        experts in the field of auto repair, who bring years of experience and a wealth of knowledge from
+                        their previous roles with top car companies.
+                    </p>
+                    <p>
+                        HACI operates on the principle that our clients are not merely customers, but valued business
+                        partners who share a common mission and vision in achieving their respective goals and objectives
+                        through the provision of exceptional, high-standard quality services.
+                    </p>
+                </div>
+
+                <div class="about-features">
+                    <div class="about-feature-card reveal delay-1">
+                        <div class="about-feature-num">01</div>
+                        <div class="about-feature-content">
+                            <h4>Expertise</h4>
+                            <p>HONTECH is a corporation composed of technical experts, the majority of whom are former
+                                employees of top car companies in the Philippines.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature-card reveal delay-2">
+                        <div class="about-feature-num">02</div>
+                        <div class="about-feature-content">
+                            <h4>Objective</h4>
+                            <p>To provide exceptional vehicle maintenance services through a CASA-LIKE AUTO CENTER,
+                                particularly for vehicles no longer covered by warranty.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature-card reveal delay-3">
+                        <div class="about-feature-num">03</div>
+                        <div class="about-feature-content">
+                            <h4>Commitment</h4>
+                            <p>Hontech is committed to delivering high-quality services at affordable prices to valued
+                                customers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         VISION & MISSION
+         ═══════════════════════════════════════ -->
+    <section class="section section-alt" id="vision-mission">
+        <div class="container">
+            <div style="text-align:center; margin-bottom:48px;" class="reveal">
+                <div class="section-label" style="justify-content:center;">Vision & Mission</div>
+                <h2 class="section-title" style="margin:0 auto;">What Drives Us Forward</h2>
+            </div>
+
+            <div class="vm-grid">
+                <div class="vm-card vm-card--vision reveal-left">
+                    <div class="vm-card-icon">
+                        <i data-lucide="eye" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <div class="vm-tagline">High Standard. Competitive. Affordable.</div>
+                    <p>
+                        Our company is committed to providing customers exceptional quality service while remaining
+                        competitively priced by continually improving our processes, investing in the latest technology,
+                        and hiring highly skilled professionals. Our goal is to establish ourselves as your trusted auto
+                        center partner.
+                    </p>
+                    <p style="margin-top:16px;font-style:italic;font-weight:600;opacity:1;color:#ef4444;font-size:13px;">
+                        "At Hontech, you leave your car in good hands."
+                    </p>
+                </div>
+
+                <div class="vm-card vm-card--mission reveal-right">
+                    <div class="vm-card-icon">
+                        <i data-lucide="target" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <div class="vm-tagline">Exampled Leaders in Car Care</div>
+                    <p>
+                        Hontech's mission is to establish itself as an industry leader and role model in the car care
+                        industry, driven by its vision and core values. We believe in treating our customers with respect
+                        and transparency as we strive to build long-term relationships and partnerships. We are dedicated
+                        to providing premium car care services that prioritize customer experience, while remaining
+                        committed to maintaining our standards of excellence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         WHY HONTECH — The 6 C's
+         ═══════════════════════════════════════ -->
+    <!-- Wave Divider -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+            <path d="M0,0 C300,60 900,0 1200,60 L1200,0 L0,0 Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <section class="section section-blob" id="why-hontech">
+        <div class="blob blob--1"></div>
+        <div class="blob blob--2"></div>
+        <div class="container" style="position:relative;z-index:2;">
+            <div class="reveal">
+                <div class="section-label">Why Choose Us</div>
+                <h2 class="section-title">The 6 C's of Hontech</h2>
+                <p class="section-subtitle">
+                    What sets us apart from the rest — our commitment to excellence through six foundational pillars.
+                </p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card reveal delay-1">
+                    <div class="why-card-icon">
+                        <i data-lucide="clipboard-check" style="width:22px;height:22px;color:#dc2626"></i>
+                    </div>
+                    <h4>Compliant</h4>
+                    <p>Compliant in maintenance standard practice same as casa, following periodic schedule or as needed.
+                    </p>
+                </div>
+
+                <div class="why-card reveal delay-2">
+                    <div class="why-card-icon">
+                        <i data-lucide="award" style="width:22px;height:22px;color:#dc2626"></i>
+                    </div>
+                    <h4>Competent</h4>
+                    <p>Competent people employed who are casa-trained and experienced technicians from top car companies
+                        in the Philippines.</p>
+                </div>
+
+                <div class="why-card reveal delay-3">
+                    <div class="why-card-icon">
+                        <i data-lucide="trending-up" style="width:22px;height:22px;color:#dc2626"></i>
+                    </div>
+                    <h4>Competitive</h4>
+                    <p>Competitive in price without compromising quality. Offers longer warranty period because of
+                        quality principle.</p>
+                </div>
+
+                <div class="why-card reveal delay-4">
+                    <div class="why-card-icon">
+                        <i data-lucide="heart-handshake" style="width:22px;height:22px;color:#dc2626"></i>
+                    </div>
+                    <h4>Customer</h4>
+                    <p>Values customer's satisfaction. Validates and reviews feedback after services to ensure
+                        continuous improvement.</p>
+                </div>
+
+                <div class="why-card reveal delay-5">
+                    <div class="why-card-icon">
+                        <i data-lucide="file-badge" style="width:22px;height:22px;color:#dc2626"></i>
+                    </div>
+                    <h4>Certificate</h4>
+                    <p>Issues certificate of records maintenance upon request, ensuring transparent service
+                        documentation.</p>
+                </div>
+
+                <div class="why-card reveal delay-6">
+                    <div class="why-card-icon">
+                        <i data-lucide="map-pin" style="width:22px;height:22px;color:#dc2626"></i>
+                    </div>
+                    <h4>Convenient</h4>
+                    <p>Convenient and accessible to all basic requirements. Easy access to quality automotive services.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider into Dark -->
+    <div class="wave-divider wave-divider--dark">
+        <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+            <path d="M0,60 C300,0 900,60 1200,0 L1200,60 L0,60 Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <!-- ═══════════════════════════════════════
+         CORE VALUES
+         ═══════════════════════════════════════ -->
+    <section class="section section-dark" id="values" style="position:relative;overflow:hidden;">
+        <!-- Moving Grid Lines -->
+        <div class="moving-grid">
+            <div class="moving-grid-line moving-grid-line--h" style="top:20%"></div>
+            <div class="moving-grid-line moving-grid-line--h" style="top:50%;animation-delay:5s;"></div>
+            <div class="moving-grid-line moving-grid-line--h" style="top:80%;animation-delay:10s;"></div>
+            <div class="moving-grid-line moving-grid-line--v" style="left:15%"></div>
+            <div class="moving-grid-line moving-grid-line--v" style="left:50%;animation-delay:7s;"></div>
+            <div class="moving-grid-line moving-grid-line--v" style="left:85%;animation-delay:14s;"></div>
+        </div>
+        <div class="blob blob--dark-1"></div>
+        <div class="blob blob--dark-2"></div>
+        <div class="container" style="position:relative;z-index:2;">
+            <div style="text-align:center;" class="reveal">
+                <div class="section-label" style="justify-content:center;">Our Core Values</div>
+                <h2 class="section-title">The Foundation of<br>Everything We Do</h2>
+                <p class="section-subtitle" style="margin:0 auto;">
+                    Our core values guide every decision we make and every service we deliver.
+                </p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card reveal delay-1">
+                    <div class="value-card-icon">
+                        <i data-lucide="scroll-text" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h4>Policies</h4>
+                    <p>Certificate of record maintenance, no questions asked in related repeated jobs, warranty on
+                        selected parts/service.</p>
+                </div>
+
+                <div class="value-card reveal delay-2">
+                    <div class="value-card-icon">
+                        <i data-lucide="users" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h4>People</h4>
+                    <p>Co-Owners, Ex-Casa Employees, Casa-Trained, Casa-Experienced professionals.</p>
+                </div>
+
+                <div class="value-card reveal delay-3">
+                    <div class="value-card-icon">
+                        <i data-lucide="compass" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h4>Principles</h4>
+                    <p>Quality over Profit, Safety is our concern, Satisfaction is our inspiration.</p>
+                </div>
+
+                <div class="value-card reveal delay-4">
+                    <div class="value-card-icon">
+                        <i data-lucide="handshake" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h4>Partnership</h4>
+                    <p>Workers, Customers, Stakeholders, Shareholders — all working together.</p>
+                </div>
+
+                <div class="value-card reveal delay-5">
+                    <div class="value-card-icon">
+                        <i data-lucide="settings-2" style="width:24px;height:24px;color:#ef4444"></i>
+                    </div>
+                    <h4>Procedures</h4>
+                    <p>Casa-concept approach with cost-efficient processes and standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         MILESTONES / TIMELINE
+         ═══════════════════════════════════════ -->
+    <section class="section" id="milestones">
+        <div class="container">
+            <div class="reveal">
+                <div class="section-label">Company Timeline</div>
+                <h2 class="section-title">Our Growth Journey</h2>
+                <p class="section-subtitle">
+                    Dedicated to continuous growth and expansion of our services. Constantly transforming our portfolio,
+                    exploring new business opportunities, and updating our skills.
+                </p>
+            </div>
+
+            <div class="timeline-container reveal">
+                <div class="timeline-line">
+                    <div class="timeline-line-fill" id="timelineFill"></div>
+                </div>
+
+                <div class="timeline-items">
+                    <div class="timeline-item reveal-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2020</div>
+                        <h4>Foundation & Launch</h4>
+                        <p>
+                            Despite the challenges brought by the pandemic, the company successfully launched its
+                            operations in a 240 sqm office with a dedicated team of 8 personnel.
+                        </p>
+                        <div class="timeline-stats">
+                            <div class="timeline-stat">
+                                <strong>240</strong>
+                                <span>SQM Office</span>
+                            </div>
+                            <div class="timeline-stat">
+                                <strong>8</strong>
+                                <span>Personnel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-year">2022</div>
+                        <h4>Remarkable Expansion</h4>
+                        <p>
+                            The company experienced remarkable growth, expanding its office space to five times the
+                            previous area and doubling the workforce — a testament to commitment and excellent service.
+                        </p>
+                        <div class="timeline-stats">
+                            <div class="timeline-stat">
+                                <strong>5x</strong>
+                                <span>Space Growth</span>
+                            </div>
+                            <div class="timeline-stat">
+                                <strong>16</strong>
+                                <span>Personnel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         OUR TEAM
+         ═══════════════════════════════════════ -->
+    <section class="section section-alt" id="team">
+        <div class="container">
+            <div class="reveal">
+                <div class="section-label">Our Team</div>
+                <h2 class="section-title">We Have the Best Team</h2>
+                <p class="section-subtitle">
+                    A dedicated team of certified professionals organized across key departments.
+                </p>
+            </div>
+
+            <div class="team-layout">
+                <div class="team-image-wrapper reveal-left">
+                    <img src="images/team-photo.png" alt="Hontech Auto Center Team">
+                </div>
+
+                <div class="team-departments">
+                    <div class="team-dept reveal delay-1">
+                        <div class="team-dept-icon">
+                            <i data-lucide="settings" style="width:20px;height:20px;color:#dc2626"></i>
+                        </div>
+                        <div class="team-dept-name">General Services</div>
+                    </div>
+                    <div class="team-dept reveal delay-2">
+                        <div class="team-dept-icon">
+                            <i data-lucide="megaphone" style="width:20px;height:20px;color:#dc2626"></i>
+                        </div>
+                        <div class="team-dept-name">Marketing and Service Care</div>
+                    </div>
+                    <div class="team-dept reveal delay-3">
+                        <div class="team-dept-icon">
+                            <i data-lucide="briefcase" style="width:20px;height:20px;color:#dc2626"></i>
+                        </div>
+                        <div class="team-dept-name">Admin and Supporting Group</div>
+                    </div>
+                    <div class="team-dept reveal delay-4">
+                        <div class="team-dept-icon">
+                            <i data-lucide="wrench" style="width:20px;height:20px;color:#dc2626"></i>
+                        </div>
+                        <div class="team-dept-name">Technical and Services</div>
+                    </div>
+                    <div class="team-dept reveal delay-5">
+                        <div class="team-dept-icon">
+                            <i data-lucide="package" style="width:20px;height:20px;color:#dc2626"></i>
+                        </div>
+                        <div class="team-dept-name">Purchasing and Logistics</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SERVICES
+         ═══════════════════════════════════════ -->
+    <section class="section" id="services">
+        <div class="container">
+            <div style="text-align:center;" class="reveal">
+                <div class="section-label" style="justify-content:center;">Our Services</div>
+                <h2 class="section-title" style="margin:0 auto 8px;">Comprehensive Auto<br>Care Solutions</h2>
+                <p class="section-subtitle" style="margin:0 auto;">
+                    From preventive maintenance to specialty services, we've got your vehicle covered.
+                </p>
+            </div>
+
+            <div class="services-tabs" id="servicesTabs">
+                <button class="services-tab active" data-tab="major">Major Services</button>
+                <button class="services-tab" data-tab="basic">Basic Services</button>
+                <button class="services-tab" data-tab="added">Added Services</button>
+            </div>
+
+            <!-- Major Services (PMS) -->
+            <div class="services-panel active" id="panel-major">
+                <div class="services-header-card reveal">
+                    <div class="services-header-card-icon">
+                        <i data-lucide="shield-check" style="width:28px;height:28px;color:#ef4444"></i>
+                    </div>
+                    <div>
+                        <h3>Preventive Maintenance Services (PMS) Package</h3>
+                        <p>Comprehensive check with condition/status report and recommendations</p>
+                    </div>
+                </div>
+
+                <div class="services-list">
+                    <div class="service-item reveal delay-1">
+                        <span class="service-item-dot"></span>
+                        <span>Clean/Check Brake Systems</span>
+                    </div>
+                    <div class="service-item reveal delay-1">
+                        <span class="service-item-dot"></span>
+                        <span>Check/Rotate Tires</span>
+                    </div>
+                    <div class="service-item reveal delay-2">
+                        <span class="service-item-dot"></span>
+                        <span>Check All Light Bulbs Operations</span>
+                    </div>
+                    <div class="service-item reveal delay-2">
+                        <span class="service-item-dot"></span>
+                        <span>Check Air System</span>
+                    </div>
+                    <div class="service-item reveal delay-3">
+                        <span class="service-item-dot"></span>
+                        <span>Check A/C System & A/C Filter</span>
+                    </div>
+                    <div class="service-item reveal delay-3">
+                        <span class="service-item-dot"></span>
+                        <span>Check Coolant</span>
+                    </div>
+                    <div class="service-item reveal delay-4">
+                        <span class="service-item-dot"></span>
+                        <span>Check Drive Belt</span>
+                    </div>
+                    <div class="service-item reveal delay-4">
+                        <span class="service-item-dot"></span>
+                        <span>Check Spark Plugs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Basic Services -->
+            <div class="services-panel" id="panel-basic">
+                <div class="services-header-card reveal">
+                    <div class="services-header-card-icon">
+                        <i data-lucide="droplets" style="width:28px;height:28px;color:#ef4444"></i>
+                    </div>
+                    <div>
+                        <h3>Basic Maintenance Services</h3>
+                        <p>Essential maintenance to keep your vehicle running smoothly</p>
+                    </div>
+                </div>
+
+                <div class="services-list">
+                    <div class="service-item reveal delay-1">
+                        <span class="service-item-dot"></span>
+                        <span>Change Engine Oil</span>
+                    </div>
+                    <div class="service-item reveal delay-1">
+                        <span class="service-item-dot"></span>
+                        <span>Change Oil Filter</span>
+                    </div>
+                    <div class="service-item reveal delay-2">
+                        <span class="service-item-dot"></span>
+                        <span>Change Air Filter</span>
+                    </div>
+                    <div class="service-item reveal delay-2">
+                        <span class="service-item-dot"></span>
+                        <span>Labor Services</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Added Services -->
+            <div class="services-panel" id="panel-added">
+                <div class="services-header-card reveal">
+                    <div class="services-header-card-icon">
+                        <i data-lucide="sparkles" style="width:28px;height:28px;color:#ef4444"></i>
+                    </div>
+                    <div>
+                        <h3>Additional & Specialty Services</h3>
+                        <p>Extra services to keep your car in pristine condition</p>
+                    </div>
+                </div>
+
+                <div class="services-list">
+                    <div class="service-item reveal delay-1">
+                        <span class="service-item-dot"></span>
+                        <span>Car Wash</span>
+                    </div>
+                    <div class="service-item reveal delay-1">
+                        <span class="service-item-dot"></span>
+                        <span>Engine Wash</span>
+                    </div>
+                    <div class="service-item reveal delay-2">
+                        <span class="service-item-dot"></span>
+                        <span>Body and Paint</span>
+                    </div>
+                    <div class="service-item reveal delay-2">
+                        <span class="service-item-dot"></span>
+                        <span>Home Service</span>
+                    </div>
+                    <div class="service-item reveal delay-3">
+                        <span class="service-item-dot"></span>
+                        <span>Car Detailing</span>
+                    </div>
+                    <div class="service-item reveal delay-3">
+                        <span class="service-item-dot"></span>
+                        <span>Undercoating</span>
+                    </div>
+                    <div class="service-item reveal delay-4">
+                        <span class="service-item-dot"></span>
+                        <span>Road Assistance</span>
+                    </div>
+                    <div class="service-item reveal delay-4">
+                        <span class="service-item-dot"></span>
+                        <span>Sales of Parts/Materials</span>
+                    </div>
+                    <div class="service-item reveal delay-5">
+                        <span class="service-item-dot"></span>
+                        <span>Record Monitoring Assistance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         CONTACT
+         ═══════════════════════════════════════ -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="reveal">
+                <div class="section-label" style="color:#ef4444;">Connect With Us</div>
+                <h2 class="section-title">Let's Get Your Car<br>Back on the Road</h2>
+                <p class="section-subtitle">
+                    Visit us at our Marikina City location or reach out through any of our contact channels.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <div class="contact-card reveal delay-1">
+                        <div class="contact-card-icon">
+                            <i data-lucide="phone" style="width:22px;height:22px;color:#ef4444"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>8 564 4550 / 7 121 9124</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card reveal delay-2">
+                        <div class="contact-card-icon">
+                            <i data-lucide="mail" style="width:22px;height:22px;color:#ef4444"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hontechautocenter@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card reveal delay-3">
+                        <div class="contact-card-icon">
+                            <i data-lucide="map-pin" style="width:22px;height:22px;color:#ef4444"></i>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>70 Bayan-bayanan Ave. corner SW Narra St.<br>Marikina Heights, Marikina City</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card reveal delay-4">
+                        <div class="contact-card-icon">
+                            <i data-lucide="instagram" style="width:22px;height:22px;color:#ef4444"></i>
+                        </div>
+                        <div>
+                            <h4>Social Media</h4>
+                            <p>@hontechautocenterinc</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-map reveal-right">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.5!2d121.1!3d14.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDM5JzAwLjAiTiAxMjHCsDA2JzAwLjAiRQ!5e0!3m2!1sen!2sph!4v1"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         FOOTER
+         ═══════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-copyright">
+                    © 2023 Hontech Auto Center Inc. All rights reserved. | Company Profile Brochure
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i data-lucide="arrow-up" style="width:20px;height:20px"></i>
+    </button>
+
+    <!-- ═══════════════════════════════════════
+         JAVASCRIPT
+         ═══════════════════════════════════════ -->
+    <script>
+        // ── Initialize Lucide Icons ──
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+
+            // ── Navbar Scroll Effect ──
+            const navbar = document.getElementById('navbar');
+            const backToTop = document.getElementById('backToTop');
+
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+
+                if (scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+
+                if (scrollY > 600) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            });
+
+            // ── Back to Top ──
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // ── Mobile Nav Toggle ──
+            const navToggle = document.getElementById('navToggle');
+            const navLinks = document.getElementById('navLinks');
+
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+
+            // Close mobile menu on link click
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('open');
+                });
+            });
+
+            // ── Active Nav Link Highlight ──
+            const sections = document.querySelectorAll('section[id]');
+            const navAnchors = document.querySelectorAll('.navbar-links a');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 120;
+                    if (window.scrollY >= sectionTop) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navAnchors.forEach(anchor => {
+                    anchor.classList.remove('active');
+                    if (anchor.getAttribute('href') === `#${current}`) {
+                        anchor.classList.add('active');
+                    }
+                });
+            });
+
+            // ── Scroll Reveal Animations ──
+            const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.12,
+                rootMargin: '0px 0px -40px 0px'
+            });
+
+            revealElements.forEach(el => revealObserver.observe(el));
+
+            // ── Timeline Animation ──
+            const timelineFill = document.getElementById('timelineFill');
+            if (timelineFill) {
+                const timelineObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            timelineFill.classList.add('animated');
+                        }
+                    });
+                }, { threshold: 0.3 });
+
+                timelineObserver.observe(timelineFill.parentElement);
+            }
+
+            // ── Services Tabs ──
+            const tabs = document.querySelectorAll('.services-tab');
+            const panels = document.querySelectorAll('.services-panel');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = tab.dataset.tab;
+
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+
+                    panels.forEach(panel => {
+                        panel.classList.remove('active');
+                        if (panel.id === `panel-${target}`) {
+                            panel.classList.add('active');
+
+                            // Re-trigger reveal animations in new panel
+                            panel.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+                                el.classList.remove('visible');
+                                setTimeout(() => el.classList.add('visible'), 50);
+                            });
+                        }
+                    });
+                });
+            });
+
+            // ── Smooth scroll offset for fixed navbar ──
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        const offset = 80;
+                        const pos = target.getBoundingClientRect().top + window.scrollY - offset;
+                        window.scrollTo({ top: pos, behavior: 'smooth' });
+                    }
+                });
+            });
+
+            // ═══════════════════════════════════════
+            // DYNAMIC MOTION ENGINE
+            // ═══════════════════════════════════════
+
+            // ── Scroll Progress Bar ──
+            const scrollProgress = document.getElementById('scrollProgress');
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.scrollY;
+                const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const scrollPercent = (scrollTop / docHeight) * 100;
+                scrollProgress.style.width = scrollPercent + '%';
+            });
+
+            // ── Parallax Scrolling ──
+            const parallaxElements = document.querySelectorAll('[data-parallax]');
+            let ticking = false;
+
+            function updateParallax() {
+                const scrollY = window.scrollY;
+                parallaxElements.forEach(el => {
+                    const speed = parseFloat(el.dataset.parallax) || 0.3;
+                    el.style.transform = `translateY(${scrollY * speed}px)`;
+                });
+                ticking = false;
+            }
+
+            window.addEventListener('scroll', () => {
+                if (!ticking) {
+                    requestAnimationFrame(updateParallax);
+                    ticking = true;
+                }
+            });
+
+            // ── Particle System ──
+            const canvas = document.getElementById('particleCanvas');
+            if (canvas) {
+                const ctx = canvas.getContext('2d');
+                let particles = [];
+                const PARTICLE_COUNT = 50;
+
+                function resizeCanvas() {
+                    const hero = document.getElementById('hero');
+                    canvas.width = hero.offsetWidth;
+                    canvas.height = hero.offsetHeight;
+                }
+                resizeCanvas();
+                window.addEventListener('resize', resizeCanvas);
+
+                class Particle {
+                    constructor() {
+                        this.reset();
+                    }
+                    reset() {
+                        this.x = Math.random() * canvas.width;
+                        this.y = Math.random() * canvas.height;
+                        this.size = Math.random() * 2 + 0.5;
+                        this.speedX = (Math.random() - 0.5) * 0.4;
+                        this.speedY = (Math.random() - 0.5) * 0.3;
+                        this.opacity = Math.random() * 0.3 + 0.05;
+                        this.fadeDir = Math.random() > 0.5 ? 1 : -1;
+                    }
+                    update() {
+                        this.x += this.speedX;
+                        this.y += this.speedY;
+                        this.opacity += this.fadeDir * 0.002;
+                        if (this.opacity <= 0.02 || this.opacity >= 0.35) this.fadeDir *= -1;
+                        if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
+                            this.reset();
+                        }
+                    }
+                    draw() {
+                        ctx.beginPath();
+                        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                        ctx.fillStyle = `rgba(239, 68, 68, ${this.opacity})`;
+                        ctx.fill();
+                    }
+                }
+
+                for (let i = 0; i < PARTICLE_COUNT; i++) {
+                    particles.push(new Particle());
+                }
+
+                function animateParticles() {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                    // Draw connection lines between nearby particles
+                    for (let i = 0; i < particles.length; i++) {
+                        for (let j = i + 1; j < particles.length; j++) {
+                            const dx = particles[i].x - particles[j].x;
+                            const dy = particles[i].y - particles[j].y;
+                            const dist = Math.sqrt(dx * dx + dy * dy);
+                            if (dist < 120) {
+                                ctx.beginPath();
+                                ctx.moveTo(particles[i].x, particles[i].y);
+                                ctx.lineTo(particles[j].x, particles[j].y);
+                                ctx.strokeStyle = `rgba(220, 38, 38, ${0.04 * (1 - dist / 120)})`;
+                                ctx.lineWidth = 0.5;
+                                ctx.stroke();
+                            }
+                        }
+                    }
+
+                    particles.forEach(p => {
+                        p.update();
+                        p.draw();
+                    });
+                    requestAnimationFrame(animateParticles);
+                }
+                animateParticles();
+
+                // Mouse interaction — particles flee from cursor
+                let mouseX = -1000, mouseY = -1000;
+                canvas.parentElement.addEventListener('mousemove', (e) => {
+                    const rect = canvas.getBoundingClientRect();
+                    mouseX = e.clientX - rect.left;
+                    mouseY = e.clientY - rect.top;
+
+                    particles.forEach(p => {
+                        const dx = p.x - mouseX;
+                        const dy = p.y - mouseY;
+                        const dist = Math.sqrt(dx * dx + dy * dy);
+                        if (dist < 100) {
+                            p.speedX += dx * 0.005;
+                            p.speedY += dy * 0.005;
+                        }
+                    });
+                });
+            }
+
+            // ── Animated Counters ──
+            const counterElements = document.querySelectorAll('.counter-number');
+            const counterObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !entry.target.dataset.counted) {
+                        entry.target.dataset.counted = 'true';
+                        const target = parseInt(entry.target.dataset.target);
+                        const duration = 2000;
+                        const startTime = performance.now();
+
+                        function animateCounter(currentTime) {
+                            const elapsed = currentTime - startTime;
+                            const progress = Math.min(elapsed / duration, 1);
+                            // Ease out cubic
+                            const eased = 1 - Math.pow(1 - progress, 3);
+                            const current = Math.floor(eased * target);
+                            entry.target.textContent = current;
+                            if (progress < 1) {
+                                requestAnimationFrame(animateCounter);
+                            } else {
+                                entry.target.textContent = target;
+                            }
+                        }
+                        requestAnimationFrame(animateCounter);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            counterElements.forEach(el => counterObserver.observe(el));
+
+            // ── Mouse-Tracking Subtle Movement (Hero) ──
+            const heroContent = document.querySelector('.hero-content');
+            const heroSection = document.getElementById('hero');
+
+            heroSection.addEventListener('mousemove', (e) => {
+                const rect = heroSection.getBoundingClientRect();
+                const x = (e.clientX - rect.left) / rect.width - 0.5;
+                const y = (e.clientY - rect.top) / rect.height - 0.5;
+
+                // Move hero image card slightly opposite to mouse
+                const heroCard = document.querySelector('.hero-image-card');
+                if (heroCard) {
+                    heroCard.style.transform = `translate(${x * -15}px, ${y * -15}px) rotateY(${x * 3}deg) rotateX(${-y * 3}deg)`;
+                }
+
+                // Float shapes react to mouse
+                document.querySelectorAll('.hero-float').forEach((float, i) => {
+                    const speed = (i + 1) * 3;
+                    float.style.transform = `translate(${x * speed}px, ${y * speed}px)`;
+                });
+            });
+
+            heroSection.addEventListener('mouseleave', () => {
+                const heroCard = document.querySelector('.hero-image-card');
+                if (heroCard) {
+                    heroCard.style.transform = 'translate(0, 0) rotateY(0deg) rotateX(0deg)';
+                    heroCard.style.transition = 'transform 0.5s ease-out';
+                    setTimeout(() => heroCard.style.transition = '', 500);
+                }
+            });
+
+            // ── Scroll-Driven Card Transforms ──
+            // Cards subtly rotate/shift based on scroll position
+            const allCards = document.querySelectorAll('.why-card, .about-feature-card, .value-card, .team-dept');
+
+            window.addEventListener('scroll', () => {
+                allCards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const windowHeight = window.innerHeight;
+                    if (rect.top < windowHeight && rect.bottom > 0) {
+                        const progress = (windowHeight - rect.top) / (windowHeight + rect.height);
+                        const shift = (progress - 0.5) * 6;
+                        card.style.transform = `translateY(${-shift}px)`;
+                    }
+                });
+            });
+
+            // ── Animated Underlines ──
+            const underlines = document.querySelectorAll('.animated-underline');
+            const underlineObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.5 });
+            underlines.forEach(el => underlineObserver.observe(el));
+
+            // ── Icon Breathe Animation ──
+            document.querySelectorAll('.why-card-icon, .value-card-icon, .vm-card-icon').forEach(icon => {
+                icon.classList.add('icon-breathe');
+            });
+
+            // ── Hover Lift for Cards ──
+            document.querySelectorAll('.why-card, .about-feature-card, .contact-card').forEach(card => {
+                card.classList.add('hover-lift');
+            });
+
+        });
+    </script>
+</body>
+
+</html>
