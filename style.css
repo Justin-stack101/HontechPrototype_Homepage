@@ -842,6 +842,15 @@ ul, ol {
 /* ──────────────────────────────────────────
    CORE VALUES
    ────────────────────────────────────────── */
+#values {
+  background-image: linear-gradient(180deg, rgba(17, 24, 37, 0.9) 0%, rgba(17, 24, 37, 0.94) 100%), url('images/values-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
 .values-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
