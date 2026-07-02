@@ -1,0 +1,6 @@
+{
+  "name": "Hontech Auto Center",
+  "description": "Premium automotive care landing page for Hontech Auto Center Inc., featuring interactive service packages, corporate timeline, department breakdowns, and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
