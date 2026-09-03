@@ -1,0 +1,20 @@
+[
+    {
+        "id": "HACI-294925",
+        "customer_name": "Juan Dela Cruz",
+        "phone": "0917-123-4567",
+        "email": "juan@example.com",
+        "car_model": "Toyota Vios 2021",
+        "car_type": "sedan",
+        "booking_date": "2026-09-04",
+        "booking_time": "09:00 AM",
+        "services": [
+            "Clean\/Check Brake Systems",
+            "Change Engine Oil"
+        ],
+        "total_estimate": 3250,
+        "status": "Pending Calibration",
+        "notes": "",
+        "created_at": "2026-09-03 02:17:36"
+    }
+]
